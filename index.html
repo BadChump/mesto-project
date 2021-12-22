@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mesto</title>
+	<link rel="stylesheet" href="./pages/index.css" />
+</head>
+
+<body class="page">
+	<div class="popup">
+		<div class="popup__overley">
+			<div class="popup__container">
+				<button type="reset" class="popup__close"><img class="popup__close-icon"
+						src="./images/Close_Icon-min.svg" alt="закрыть"></button>
+				<div class="popup__form">
+					<h1 class="popup__title">Редактировать профиль</h1>
+					<fieldset class="popup__info">
+						<input type="text" class="popup__name" placeholder="Жак Ив Кусто" required>
+					</fieldset>
+					<fieldset class="popup__info">
+						<input type="textarea" class="popup__text" placeholder="Исследователь океана">
+					</fieldset>
+					<button type="submit" class="popup__button">Сохранить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header class="header">
+		<img class="header__logo" src="./images/Vector(2)-min.svg" alt="логотип" />
+	</header>
+	<main class="content">
+		<section class="profile">
+			<img class="profile__avatar" src="./images/avatar.jpg" alt="аватар">
+			<div class="profile__info">
+				<h1 class="profile__name"> Жак-Ив Кусто </h1>
+				<p class="profile__bio">Исследователь океана</p>
+				<button class="profile__but-edit">
+					<img class="profile__pic-but-edit" src="./images/Vector(1)-min.svg" alt="редактировать" />
+				</button>
+			</div>
+			<button class="profile__but-add">
+				<img class="profile__pic-but-add" src="./images/Vector(7)++++.svg" alt="добавить" />
+			</button>
+		</section>
+		<section class="photo">
+			<ul class="photo__cards">
+				<li class="photo__item">
+					<img class="photo__image" src="./images/карачаевск.jpg" alt="карачаевск" />
+					<p class="photo__name">Карачаево-Черкессия</p>
+					<button class="photo__heart photo__heart_active"></button>
+				</li>
+				<li class="photo__item">
+					<img class="photo__image" src="./images/эльбрус.jpg" alt="гора эльбрус" />
+					<p class="photo__name">гора Эльбрус</p>
+					<button class="photo__heart"></button>
+				</li>
+				<li class="photo__item">
+					<img class="photo__image" src="./images/домбай.jpg" alt="домбай" />
+					<p class="photo__name">Домбай</p>
+					<button class="photo__heart"></button>
+				</li>
+				<li class="photo__item">
+					<img class="photo__image" src="./images/карачаевск.jpg" alt="карачаевск" />
+					<p class="photo__name">Карачаевск</p>
+					<button class="photo__heart"></button>
+				</li>
+				<li class="photo__item">
+					<img class="photo__image" src="./images/эльбрус.jpg" alt="гора эльбрус" />
+					<p class="photo__name">гора Эльбрус</p>
+					<button class="photo__heart"></button>
+				</li>
+				<li class="photo__item">
+					<img class="photo__image" src="./images/домбай.jpg" alt="домбай" />
+					<p class="photo__name">Домбай</p>
+					<button class="photo__heart"></button>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer class="footer">
+		<p class="footer__copyright">&copy; 2021 Mesto Russia</p>
+	</footer>
+</body>
+
+</html>

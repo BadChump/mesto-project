@@ -1,0 +1,8 @@
+.popup__btn {
+	position: relative;
+	height: 50px;
+	max-width: 358px;
+	padding: 18px 0 0;
+	border-radius: 2px;
+	border: 0;
+}

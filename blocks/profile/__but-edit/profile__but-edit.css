@@ -1,0 +1,25 @@
+.profile__but-edit {
+	display: flex;
+	margin: 0;
+	width: 24px;
+	height: 24px;
+	background: #000;
+	cursor: pointer;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	grid-area: profile__but-edit;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+}
+
+.profile__but-edit:hover {
+	opacity: 0.6;
+}
+
+@media screen and (max-with: 540px) {
+	.profile__but-edit {
+		width: 18px;
+		height: 18px;
+	}
+}

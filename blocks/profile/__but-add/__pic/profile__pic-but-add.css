@@ -1,0 +1,12 @@
+.profile__pic-but-add {
+	max-width: 22px;
+	max-height: 22px;
+	
+}
+
+@media screen and (max-width: 540px) {
+	.profile__pic-but-add {
+		max-width: 16px;
+		max-height: 16px;
+	}
+}

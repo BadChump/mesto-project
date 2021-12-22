@@ -1,0 +1,7 @@
+.popup__info {
+	padding: 0 1px 13px;
+	margin-bottom: 30px;
+	border: 0;
+	opacity: 0.2;
+	border-bottom: 1px solid #000;
+}

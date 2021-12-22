@@ -1,0 +1,32 @@
+.photo__cards {
+	display: grid;
+	max-width: 880px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	justify-content: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 17px;
+	row-gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.photo__cards {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.photo__cards {
+		max-width: 320px;
+		grid-template-columns: 1fr;
+		align-items: center;
+		padding: 0 19px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.photo__cards {
+		padding: 0;
+	}
+}
