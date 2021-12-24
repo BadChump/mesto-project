@@ -11,4 +11,4 @@
 4. Grid
 5. FlexBox
 
-[проект на Github](https://github.com/BadChump/mesto-project.git)
+[проект на GitHub Pages](https://badchump.github.io/mesto-project/)
