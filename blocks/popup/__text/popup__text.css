@@ -1,12 +1,7 @@
 .popup__text {
-	width: 98%;
+	font-family: 'Inter', 'Arial', sans-serif;
+	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 17px;
-	border: 0;
-	color: #000000;
-	outline-style: none;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
 }

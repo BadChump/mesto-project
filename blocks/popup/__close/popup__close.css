@@ -1,14 +1,19 @@
 .popup__close {
-	max-width: 32px;
-	max-height: 32px;
-	background: none;
+	box-sizing: border-box;
+	background-image: url("../../../images/Close_Icon-min.svg");
+	color: rgba(255, 255, 255, 1);
+	width: 32px;
+	height: 32px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0);
 	cursor: pointer;
-	align-content: center;
 	padding: 0;
 	border: 0;
 	position: absolute;
+	overflow: hidden;
 	right: -40px;
-	transform: rotate(45deg);
 	top: -40px;
 }
 
@@ -17,10 +22,9 @@
 }
 @media screen and (max-width: 560px) {
 	.popup__close {
-		min-width: 20px;
+		width: 20px;
 		height: 20px;
-		top: -26px;
+		top: -36px;
 		right: 0;
 	}
 }
-

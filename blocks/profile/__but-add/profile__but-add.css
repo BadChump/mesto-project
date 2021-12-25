@@ -1,12 +1,14 @@
 .profile__but-add {
-	display: flex;
-	background: #000;
+	background-image: url("../../../images/Vector(7)++++.svg");
+	color: #fff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 22px;
+	background-color: #000;
 	cursor: pointer;
 	min-width: 150px;
 	height: 50px;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
+	padding: 0;
 	border: 2px solid #ffffff;
 	box-sizing: border-box;
 	align-self: center;
@@ -19,8 +21,9 @@
 
 @media screen and (max-width: 414px) {
 	.profile__but-add {
+		background-size: 16px;
 		width: 100%;
-		padding: 0;
+		/* padding: 0; */
 		max-width: 282px;
 	}
 }

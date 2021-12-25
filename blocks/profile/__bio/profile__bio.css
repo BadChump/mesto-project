@@ -5,6 +5,10 @@
 	line-height: 22px;
 	grid-area: profile__bio;
 	width: 100%;
+	text-overflow: ellipsis;
+	max-width: 336px;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 @media screen and (max-width: 320px) {
