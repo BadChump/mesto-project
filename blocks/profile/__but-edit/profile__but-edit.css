@@ -1,18 +1,21 @@
 .profile__but-edit {
 	display: block;
 	border: 0;
-	background-image: url("../../../images/Vector(1)-min.svg");
+	background-image: url("../../../images/EditButton.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #000;
-	background-size: 10px;
-	max-width: 24px;
-	max-height: 24px;
+
+	/* background-size: 24px; */
+	width: 24px;
+	height: 24px;
 	padding: 7px;
 	cursor: pointer;
 	grid-area: profile__but-edit;
-	border: 1px solid #ffffff;
+	/* border: 1px solid #ffffff; */
 	box-sizing: border-box;
+	/* justify-self: end;
+	align-self: center; */
 }
 
 .profile__but-edit:hover {
@@ -21,8 +24,8 @@
 
 @media screen and (max-with: 540px) {
 	.profile__but-edit {
-		max-width: 18px;
-		max-height: 18px;
-		background-size: 7.5px;
+		width: 18px;
+		height: 18px;
+		/* background-size: 18px; */
 	}
 }
