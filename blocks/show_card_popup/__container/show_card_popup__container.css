@@ -1,0 +1,5 @@
+.show_card_popup__container {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+}

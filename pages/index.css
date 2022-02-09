@@ -23,6 +23,7 @@
 @import "../blocks/photo/__name/photo__name.css";
 @import "../blocks/photo/__heart/photo__heart.css";
 @import "../blocks/photo/__heart/_active/photo__heart_active.css";
+@import "../blocks/photo/__delete/photo__delete.css";
 
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
@@ -38,3 +39,9 @@
 @import "../blocks/popup/__input/_data/popup__input_data_desc.css";
 @import "../blocks/popup/__button/popup__button.css";
 @import "../blocks/popup/__close/popup__close.css";
+
+@import "../blocks/show_card_popup/show_card_popup.css";
+@import "../blocks/show_card_popup/__container/show_card_popup__container.css";
+@import "../blocks/show_card_popup/__close/show_card_popup__close.css";
+@import "../blocks/show_card_popup/__image/show_card_popup__image.css";
+@import "../blocks/show_card_popup/__title/show_card_popup__title.css";

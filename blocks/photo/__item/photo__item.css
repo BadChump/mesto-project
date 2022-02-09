@@ -1,5 +1,6 @@
 .photo__item {
 	display: grid;
+	position: relative;
 	width: 100%;
 	max-width: 282px;
 	font-style: normal;

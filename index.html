@@ -25,44 +25,15 @@
 		</section>
 		<section class="photo">
 			<ul class="photo__cards">
-				<li class="photo__item">
-					<img class="photo__image" src="./images/карачаевск.jpg" alt="карачаевск" />
-					<h2 class="photo__name">Карачаево-Черкессия</h2>
-					<button type="button" class="photo__heart photo__heart_active"></button>
-				</li>
-				<li class="photo__item">
-					<img class="photo__image" src="./images/эльбрус.jpg" alt="гора эльбрус" />
-					<h2 class="photo__name">гора Эльбрус</h2>
-					<button type="button" class="photo__heart"></button>
-				</li>
-				<li class="photo__item">
-					<img class="photo__image" src="./images/домбай.jpg" alt="домбай" />
-					<h2 class="photo__name">Домбай</h2>
-					<button type="button" class="photo__heart"></button>
-				</li>
-				<li class="photo__item">
-					<img class="photo__image" src="./images/карачаевск.jpg" alt="карачаевск" />
-					<h2 class="photo__name">Карачаевск</h2>
-					<button type="button" class="photo__heart"></button>
-				</li>
-				<li class="photo__item">
-					<img class="photo__image" src="./images/эльбрус.jpg" alt="гора эльбрус" />
-					<h2 class="photo__name">гора Эльбрус</h2>
-					<button type="button" class="photo__heart"></button>
-				</li>
-				<li class="photo__item">
-					<img class="photo__image" src="./images/домбай.jpg" alt="домбай" />
-					<h2 class="photo__name">Домбай</h2>
-					<button type="button" class="photo__heart"></button>
-				</li>
 			</ul>
 		</section>
 	</main>
+
 	<footer class="footer">
 		<p class="footer__copyright">&copy; 2021 Mesto Russia</p>
 	</footer>
-	<!-- popup_opened -->
-	<div class="popup">
+
+	<div class="popup" id="popup_type_edit">
 		<div class="popup__container">
 			<button type="button" class="popup__close" aria-label="Закрытие модального окна"></button>
 			<form name="form_edit" class="popup__form">
@@ -76,7 +47,42 @@
 			</form>
 		</div>
 	</div>
-<script src="./index.js"></script>
+
+	<div class="popup" id="popup_type_add">
+		<div class="popup__container">
+			<button type="button" class="popup__close" aria-label="Закрытие модального окна"></button>
+			<form name="form_edit" class="popup__form">
+				<h2 class="popup__title">Новое место</h2>
+				<fieldset class="popup__info">
+					<input type="text" name="name" class="popup__input popup__input_data_name" autofocus
+						placeholder="Название">
+					<input type="url" name="desc" class="popup__input popup__input_data_link"
+						placeholder="Ссылка на картинку">
+				</fieldset>
+				<button type="submit" class="popup__button">Создать</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="popup show_card_popup">
+		<div class="show_card_popup__container">
+			<button type="button" class="popup__close show_card_popup__close"
+				aria-label="Закрытие модального окна"></button>
+			<img class="show_card_popup__image" src="#" alt="" />
+			<h2 class="show_card_popup__title"></h2>
+		</div>
+	</div>
+
+	<template id="item-template">
+		<li class="photo__item">
+			<img class="photo__image" src="#" alt="" />
+			<h2 class="photo__name"></h2>
+			<button type="button" class="photo__heart"></button>
+			<button type="button" class="photo__delete"></button>
+		</li>
+	</template>
+
+	<script src="./index.js" defer></script>
 </body>
 
 </html>
