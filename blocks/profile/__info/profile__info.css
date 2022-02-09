@@ -10,7 +10,7 @@
     "profile__bio . ";
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 570px) {
 	.profile__info {
 		margin: 26px auto 36px;
 	}
